@@ -157,9 +157,9 @@ $(function() {
 					$(".lafite_list"+(indexs+2)+" img").attr("src","images/default_selected_reward_img_1.png");
 				}
 				
-				$(".lafite_list"+(indexs+2)+" .aw_con_list_font div").css("color","#FFEE2D");
-				$(".lafite_list"+(indexs+2)+" .aw_con_list_font div span").css("color","#FFEE2D");
-				$(".lafite_list"+(indexs+2)+" .aw_con_list_font .aw_tudi").css("color","white");
+				// $(".lafite_list"+(indexs+2)+" .aw_con_list_font div").css("color","#FFEE2D");
+				// $(".lafite_list"+(indexs+2)+" .aw_con_list_font div span").css("color","#FFEE2D");
+				// $(".lafite_list"+(indexs+2)+" .aw_con_list_font .aw_tudi").css("color","white");
 			}
 			
 			// 已完成 
