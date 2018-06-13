@@ -180,7 +180,7 @@ $(function() {
 			function showpage() {
 				$(".table_page_middle span").text(page);
 				// 收徒总榜
-				$.post(Url4,{"phoneNum": uid,"access_token": token,"curPage": page1},function(res){
+				$.post(Url4,{"phoneNum": uid,"access_token": token,"curPage": page},function(res){
 					$(".table_page_middle font").text(Math.ceil(res.data.totalCount/10));
 					console.log(res);
 					if(Math.ceil(res.data.totalCount/10) == 1) {
